@@ -1,0 +1,9 @@
+1. Definitions: 
+Create a new .txt file and write descriptions / definitions of these topics. Please, do not 
+copy paste. Use your own words and make sure that you understand everything you write. 
+a. HTML - (HyperText Markup Language) a markup language for creation of Web pages 
+b. CSS - (Cascading Style Sheets) language that dictates how HTML elements are displayed 
+c. Javascript - a very versatile programming language, for the most part is used to make HTML and CSS code interactive 
+d. HTTP - an application layer protocol used globally in World Wide Web 
+e. HTML5 - the newest version of the HTML 
+f. Dynamic HTML (DHTML) - broad term for pages that are dynamic after the page is fully loaded made possible with client-side scripting language such as JS
