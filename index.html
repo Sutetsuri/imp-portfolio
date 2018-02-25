@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/lab1.css">
+    <script src="js/lab1.5.js"></script>
+
+    <title>Lab 1</title>
+  </head>
+  <body>
+
+    <!--Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">Interactive Multimedia Programming</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Lab 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lab2.html">Lab 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lab3.html">Lab 3</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lab4.html">Lab 4</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lab5.html">Lab 5</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lab6.html">Lab 6</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <h1 class="title">"basics basics basics"</h1>
+
+    <div class="main">
+
+      <div class="block">
+        <h3>1. Defenition list:</h3>
+        <p><em>HTML</em> - (HyperText Markup Language) a markup language for creation of Web pages</p>
+        <p><em>CSS</em> - (Cascading Style Sheets) language that dictates how HTML elements are displayed</p>
+        <p><em>Javascript</em> - a very versatile programming language, for the most part is used to make HTML and CSS code interactive</p>
+        <p><em>HTTP</em> - an application layer protocol used globally in World Wide Web</p>
+        <p><em>HTML5</em> - the newest version of the HTML</p>
+        <p><em>Dynamic HTML (DHTML)</em> - broad term for pages that are dynamic after the page is fully loaded made possible with client-side scripting language such as JS</p>
+      </div>
+
+      <div class=" thoughts">
+        <h4>Some thoughts on the other tasks:</h4>
+        <ol type="1">
+          <li>CSS coding conventions are a bit of a pain to follow consistently, tools are vital.</li>
+          <li>I figured this page on its own is a fair example of a simple HTML document.</li>
+          <li>Developer tools are no novelty, we use em all the time.</li>
+          <li>Overall this week is pretty simple, so there's not much that I can rant about here.</li>
+        </ol>
+        <p><em>-Dmitrii</em></p>
+      </div>
+
+      <div class="block">
+        <h3>5. Person list:</h3>
+        <div class="input-container">
+
+          <div class="form-container">
+            <input type="text" class="form-control" id="name-input" value="" placeholder="Name" onkeydown="keyPress(event)">
+          </div>
+
+          <div class="button-container">
+            <button type="submit" class="btn" name="button" onclick="addPerson()">Add a person:</button>
+          </div>
+
+          <div id="person-list"></div>
+        </div>
+        <br/><br/>
+      </div>
+
+
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+#messageList {
+  max-height: 80vh;
+  max-width: 110vh;
+  overflow-y: scroll;
+  background-color: lightgrey;
+}
+
+#soundRange {
+  margin-top: 1%;
+}
+
+#navbarNav {
+  text-align: center;
+}
+
+.title {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+.main {
+  width: 100%;
+  height: 80%;
+ }
+
+.center-block {
+ display: block;
+ float: left;
+ width: 80%;
+ margin-left: 40%;
+ margin-top: 2%;
+}
+
+.person-container li {
+  padding: .5%;
+}
+
+.block {
+  display: block;
+  float: left;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.block a {
+  display: block;
+  margin-top: 2%;
+  margin-left: 2%;
+  color: black;
+}
+
+.block h3 {
+  margin-bottom: 2%;
+}
+
+.thoughts {
+  display: block;
+  float: left;
+  margin-top: 3%;
+  margin-left: 10%;
+}
