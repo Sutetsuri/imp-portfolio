@@ -1,4 +1,5 @@
 var PersonModel = function () {
+    this.persons = [];
     this.addPersonEvent = new Event(this);
 };
 
