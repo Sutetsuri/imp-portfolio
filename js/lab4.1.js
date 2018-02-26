@@ -1,6 +1,6 @@
 var canvas = document.getElementById("canvas"),
     ctx = canvas.getContext("2d"),
-    drawCanvas = document.getElementById("drawCanvas"),
+    drawCanvas = document.getElementById("draw-canvas"),
     drawCtx = drawCanvas.getContext("2d"),
     painting = false,
     lastX = 0,
