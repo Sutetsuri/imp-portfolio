@@ -9,7 +9,7 @@ function getPictures() {
       $("#image-list").empty();
       $.each(data.items, function(counter, item) {
         $("<img>").attr({ "src": item.media.m, "class": "image" }).appendTo("#image-list");
-        if (counter === 14) {
+        if (counter === 15) {
           return false;
         }
       });
