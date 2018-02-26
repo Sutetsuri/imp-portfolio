@@ -1,5 +1,5 @@
 function getPictures() {
-  var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+  var flickerAPI = "https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
   $.getJSON(flickerAPI, {
       tags: $("#text-input").val(),
       tagmode: "any",
